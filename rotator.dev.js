@@ -1,10 +1,3 @@
-/*
-Simple Image Rotator plugin: http://om4.com.au/wordpress-plugins/simple-image-rotator-plugin/
-
-$Revision: 5160 $
-$LastChangedDate: 2013-11-11 14:57:45 +1100 (Mon, 11 Nov 2013) $
-*/
-
 var $j = jQuery.noConflict();
 
 /**

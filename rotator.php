@@ -3,12 +3,13 @@
 Plugin Name: Simple Image Rotator
 Plugin URI: http://om4.com.au/wordpress-plugins/
 Description: Allows you to one or more sets of images and add them to your website so they display in rotation - like a mini slide show.
-Version: 1.6.1
+Version: 1.6.2
 Author: OM4
 Author URI: http://om4.com.au/
 Text Domain: om4-simplerotator
 Git URI: https://github.com/OM4/simple-image-rotator
 Git Branch: release
+License: GPLv2
 */
 
 /*  Copyright 2009-2013 OM4 (email: info@om4.com.au    web: http://om4.com.au/)

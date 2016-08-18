@@ -1,18 +1,18 @@
 <?php
 /*
 Plugin Name: Simple Image Rotator
-Plugin URI: http://om4.com.au/wordpress-plugins/
+Plugin URI: https://om4.com.au/plugins/
 Description: Allows you to one or more sets of images and add them to your website so they display in rotation - like a mini slide show.
-Version: 1.6.3
+Version: 1.6.4
 Author: OM4
-Author URI: http://om4.com.au/
+Author URI: https://om4.com.au/plugins/
 Text Domain: om4-simplerotator
 Git URI: https://github.com/OM4/simple-image-rotator
 Git Branch: release
 License: GPLv2
 */
 
-/*  Copyright 2009-2013 OM4 (email: info@om4.com.au    web: http://om4.com.au/)
+/*  Copyright 2009-2016 OM4 (email: plugins@om4.com.au    web: https://om4.com.au/plugins/)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -32,7 +32,7 @@ License: GPLv2
 
 class OM4_Simple_Rotator {
 	
-	var $version = '1.6.3';
+	var $version = '1.6.4';
 	
 	var $dbVersion = 1;
 	
@@ -52,7 +52,7 @@ class OM4_Simple_Rotator {
 	 * Constructor
 	 *
 	 */
-	function OM4_Simple_Rotator() {
+	public function __construct() {
 		
 		// Uncomment to prevent browsers caching the JS file while debugging.
 		//$this->version .= time();
